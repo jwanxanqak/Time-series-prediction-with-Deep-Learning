@@ -1,0 +1,32 @@
+python==3.10.12
+h5py==3.9.0
+numpy==1.25.2
+tensorflow==2.15.0
+pandas==2.0.3
+statsmodel==0.14.1
+matplotlib==3.7.1
+sklearn==1.2.2
+keras==2.15.0
+prophet==1.1.5
+seaborn==0.12.2
+cmdstanpy==1.2.2
+
+#install libraries
+pip install h5py==3.9.0
+pip install tensorflow==2.15.0
+conda install pandas==2.0.3
+conda install -c conda-forge statsmodels
+conda install matplotlib==3.7.1
+conda install -c conda-forge scikit-learn=1.2.2
+conda install -c conda-forge prophet=1.1.5
+conda install -c anaconda seaborn==0.12.2
+conda install -c conda-forge cmdstanpy=1.2.2
+
+
+#to configure the virtual environment
+pip install ipykernel
+
+#Add your virtual environment as a kernel in Jupyter
+python -m ipykernel install --user --name=myenv
+
+
